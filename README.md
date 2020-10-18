@@ -23,7 +23,7 @@ For Kernel 4.15.x ~ 5.8.x (Linux Mint, Ubuntu or Debian Derivatives)
  after Pi boots you will need to SSH into RPI via Ethernet cable and Follow this instructions as the GUI will not work
 --> https://gist.github.com/maoueh/8260199 OR https://gist.github.com/maoueh/8260199#file-gistfile1-md
 
-
+------------------
 Run following commands for disable power management and plugging/replugging issues.
 
 `sudo mkdir -p /etc/modprobe.d/`
