@@ -17,6 +17,12 @@ For Kernel 4.15.x ~ 5.8.x (Linux Mint, Ubuntu or Debian Derivatives)
 `sudo cp ./rtl8188fu/firmware/rtl8188fufw.bin /lib/firmware/rtlwifi/`
 
 ------------------
+## For installation on RPi-LibreELEC
+ Follow instructions here to add a new package
+--> https://forum.libreelec.tv/thread/17704-odroid-c2-compile-kernel-for-0bda-f179-support/?postID=145448#post145448
+ after Pi boots you will need to SSH into RPI via Ethernet cable and Follow this instructions as the GUI will not work
+--> https://gist.github.com/maoueh/8260199 OR https://gist.github.com/maoueh/8260199#file-gistfile1-md
+
 
 Run following commands for disable power management and plugging/replugging issues.
 
